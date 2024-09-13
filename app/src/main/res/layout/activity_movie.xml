@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieActivity">
+
+    <TextView
+        android:id="@+id/title_movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saved movies"
+        android:textSize="40sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/listMovieNotWatched"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/title_movies"
+        android:dividerHeight="5dp"
+        android:divider="@android:color/transparent"
+        android:layout_above="@id/addButton"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="32dp"
+        android:backgroundTint="@color/main_blue"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/baseline_add_24"
+        app:tint="@color/white"/>
+
+</RelativeLayout>

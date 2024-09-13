@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:checked="false"
+            android:buttonTint="@color/main_blue"
+            />
+
+
+        <TextView
+            android:id="@+id/nameMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xena: Warrior princess"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toEndOf="@id/checkbox"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/white"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/baseline_delete_24"
+            tool:ignore="TouchTargetSizeCheck" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
