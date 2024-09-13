@@ -16,7 +16,8 @@ _Прочитать на другом языке: [English](README.md), [Рус�
   
 ## Демо версия
 
-<img src="app/src/main/res/drawable/demo/zdoroviash.gif" width="200" />
+<img src="app/src/main/res/drawable/demo1.png" width="200" />
+<img src="app/src/main/res/drawable/demo2.png" width="200" />
 
 ## Используемые фреймворки и технологии
 

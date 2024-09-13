@@ -16,7 +16,8 @@ The application is implemented to record the desired movies to watch, so as not 
 
 ## Demo
 
-<img src="app/src/main/res/drawable/demo/zdoroviash.gif" width="200" />
+<img src="app/src/main/res/drawable/demo1.png" width="200" />
+<img src="app/src/main/res/drawable/demo2.png" width="200" />
 
 ## Frameworks and technologies used
 
